@@ -25,6 +25,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import codsoft from "./company/codsoft.png";
+import heromotocorp from "./company/heromotocorp.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,6 +58,8 @@ export {
   shopify,
   starbucks,
   tesla,
+  codsoft,
+  heromotocorp,
   carrent,
   jobit,
   tripguide,
