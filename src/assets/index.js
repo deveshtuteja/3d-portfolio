@@ -20,6 +20,22 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import bootstrap from "./tech/bootstrap.png";
+import shadcn from "./tech/shadcn.png";
+import headless from "./tech/headless.png";
+import radix from "./tech/radix.png";
+import express from "./tech/express.png";
+import firebase from "./tech/firebase.png";
+import jest from "./tech/jest.png";
+import java from "./tech/java.png";
+import cpp from "./tech/cpp.png";
+import c from "./tech/c.png";
+import sql from "./tech/sql.png";
+import vite from "./tech/vite.png";
+import parcel from "./tech/parcel.png";
+import vscode from "./tech/vscode.png";
+
+
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -44,18 +60,31 @@ export {
   github,
   menu,
   close,
-  css,
-  docker,
-  figma,
-  git,
-  html,
   javascript,
-  mongodb,
-  nodejs,
+  typescript,
+  html,
+  css,
   reactjs,
   redux,
   tailwind,
-  typescript,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  bootstrap,
+  shadcn,
+  headless,
+  radix,
+  express,
+  firebase,
+  jest,
+  java,
+  cpp,
+  c,
+  sql,
+  vite,
+  parcel,
+  vscode,
   threejs,
   meta,
   shopify,

@@ -14,7 +14,20 @@ import {
     mongodb,
     git,
     figma,
-    docker,
+    bootstrap,
+    shadcn,
+    headless,
+    radix,
+    express,
+    firebase,
+    jest,
+    java,
+    cpp,
+    c,
+    sql,
+    vite,
+    parcel,
+    vscode,
     codsoft,
     heromotocorp,
     streamai,
@@ -73,16 +86,16 @@ const technologies = [
         name: "JavaScript",
         icon: javascript,
     },
+    // {
+    //     name: "TypeScript",
+    //     icon: typescript,
+    // },
     {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
-        name: "React JS",
+        name: "React.js",
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
+        name: "Redux",
         icon: redux,
     },
     {
@@ -90,29 +103,81 @@ const technologies = [
         icon: tailwind,
     },
     {
-        name: "Node JS",
+        name: "Node.js",
         icon: nodejs,
     },
     {
-        name: "MongoDB",
+        name: "Express.js",
+        icon: express,
+    },
+    {
+        name: "MongoDb",
         icon: mongodb,
     },
     {
-        name: "Three JS",
+        name: "Three.js",
         icon: threejs,
     },
+    // {
+    //     name: "Firebase",
+    //     icon: firebase,
+    // },
+    // {
+    //     name: "Git",
+    //     icon: git,
+    // },
     {
-        name: "git",
-        icon: git,
+        name: "Jest",
+        icon: jest,
     },
     {
-        name: "figma",
-        icon: figma,
+        name: "Java",
+        icon: java,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "C++",
+        icon: cpp,
     },
+    // {
+    //     name: "C",
+    //     icon: c,
+    // },
+    // {
+    //     name: "SQL",
+    //     icon: sql,
+    // },
+    // {
+    //     name: "Vite.js",
+    //     icon: vite,
+    // },
+    // {
+    //     name: "Parcel",
+    //     icon: parcel,
+    // },
+    // {
+    //     name: "Bootstrap",
+    //     icon: bootstrap,
+    // },
+    // {
+    //     name: "shadcn/ui",
+    //     icon: shadcn,
+    // },
+    // {
+    //     name: "Radix",
+    //     icon: radix,
+    // },
+    // {
+    //     name: "Headless UI",
+    //     icon: headless,
+    // },
+    // {
+    //     name: "Figma",
+    //     icon: figma,
+    // },
+    // {
+    //     name: "VS Code",
+    //     icon: vscode,
+    // },
 ];
 
 const experiences = [
