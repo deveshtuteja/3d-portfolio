@@ -1,14 +1,24 @@
-import React, { Suspense, useEffect, useState } from "react";
-import { Canvas } from "@react-three/fiber";
+import React, { Suspense, useEffect, useRef, useState } from "react";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
+  const meshRef = useRef();
+
+  useFrame((state, delta) => {
+    if (meshRef.current) {
+      // Adjust these values to change the animation
+      meshRef.current.position.y = Math.sin(state.clock.elapsedTime) * 0.1;
+      meshRef.current.rotation.y =
+        Math.sin(state.clock.elapsedTime * 0.5) * 0.05;
+    }
+  });
 
   return (
-    <mesh>
+    <mesh ref={meshRef}>
       <hemisphereLight intensity={0.35} groundColor="black" />
       <spotLight
         position={[-20, 50, 10]}
@@ -19,7 +29,7 @@ const Computers = ({ isMobile }) => {
         shadow-mapSize={1024}
       />
       <pointLight intensity={1.5} />
-      <directionalLight position={[0, 10, 0]} intensity={1} castShadow />
+      <directionalLight position={[0, 10, 0]} intensity={2} castShadow />
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.55 : 0.75}
@@ -56,7 +66,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      frameloop="demand"
+      frameloop="always"
       shadows
       dpr={[1, 2]}
       camera={{
@@ -67,6 +77,8 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
+          // autoRotate
+          // autoRotateSpeed={1}
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
