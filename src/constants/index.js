@@ -17,10 +17,13 @@ import {
     docker,
     codsoft,
     heromotocorp,
-    carrent,
-    jobit,
-    tripguide,
+    streamai,
+    leavemanagement,
+    eatezy,
+    mytube,
     threejs,
+    passwordgenerator,
+    simonsays
 } from "../assets";
 
 export const navLinks = [
@@ -197,67 +200,167 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "StreamAI",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "AI-powered OTT platform with improved recommendations, increasing user engagement by 35%. Optimized performance, reducing load times by 30% and unnecessary re-renders by 25%. Developed secure user authentication, boosting retention by 15%.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "redux",
                 color: "green-text-gradient",
             },
             {
                 name: "tailwind",
                 color: "pink-text-gradient",
             },
+            {
+                name: "firebase",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "gemini-api",
+                color: "purple-text-gradient",
+            },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: streamai,
+        source_code_link: "https://github.com/deveshtuteja/streamAI",
+        website_link: "https://stream-ai.netlify.app/",
     },
     {
-        name: "Job IT",
+        name: "Leave Management System",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Revamped the leave management system for Hero MotoCorp Ltd, improving user satisfaction by 60%. Created an easy-to-use, modern application for plant workers, reducing support requests by 35%. Enhanced accuracy and usability of attendance features, reducing discrepancies by 30%.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "redux",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "tailwind",
                 color: "pink-text-gradient",
             },
+            {
+                name: "shadcn/ui",
+                color: "purple-text-gradient",
+            },
+            // {
+            //     name: "headless-ui",
+            //     color: "orange-text-gradient",
+            // },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: leavemanagement,
+        source_code_link: "https://github.com/deveshtuteja/hero-lms",
     },
     {
-        name: "Trip Guide",
+        name: "My-Tube",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "YouTube-like video platform with dark mode, enhancing user engagement by 25%. Implemented caching and debouncing in search, improving search efficiency by 30% and reducing latency by 20%. Built a live chat feature, boosting real-time interaction and user retention by 15%.",
         tags: [
             {
-                name: "nextjs",
+                name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "redux",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "youtube-api",
+                color: "red-text-gradient",
+            },
+        ],
+        image: mytube,
+        source_code_link: "https://github.com/deveshtuteja/my-tube",
+        website_link: "https://myy-tube.vercel.app/",
+    },
+    {
+        name: "EatEzy",
+        description:
+            "Food ordering app with real-time restaurant data. Streamlined cart management with Redux, improving order speed by 25%. Enhanced UI with Tailwind CSS & Shimmer UI, increasing user engagement by 20%.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "redux",
+                color: "green-text-gradient",
+            },
+            {
+                name: "tailwind",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "swiggy-api",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "jest",
+                color: "red-text-gradient",
+            },
+        ],
+        image: eatezy,
+        source_code_link: "https://github.com/deveshtuteja/EatEzy",
+        website_link: "https://eat-ezy.vercel.app/",
+    },
+    {
+        name: "Password Generator",
+        description:
+            "A responsive password generator that creates secure passwords with customizable length, numbers, and special characters. Includes a copy button for convenience. Built using React, JavaScript, and regex for robust password creation and validation.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "yellow-text-gradient",
+            },
+            {
+                name: "regex",
+                color: "green-text-gradient",
+            },
+            {
+                name: "responsive",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: passwordgenerator,
+        source_code_link: "https://github.com/deveshtuteja/password-generator",
+        website_link: "https://password-generator-num-char.vercel.app/",
+    },
+    {
+        name: "Simon Says Game",
+        description:
+            "A simple JavaScript project that replicates the classic Simon Says game. Players must memorize and repeat sequences of colors, which get progressively longer and more challenging. This project demonstrates the use of JavaScript for game logic.",
+        tags: [
+            {
+                name: "html",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "javascript",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: simonsays,
+        source_code_link: "https://github.com/deveshtuteja/Simon-Says-Game",
+        website_link: "https://simon-says-js.vercel.app/",
     },
 ];
 

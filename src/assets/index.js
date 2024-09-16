@@ -28,9 +28,12 @@ import tesla from "./company/tesla.png";
 import codsoft from "./company/codsoft.png";
 import heromotocorp from "./company/heromotocorp.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import leavemanagement from "./leavemanagement.png";
+import eatezy from "./eatezy.png";
+import streamai from "./streamai.png";
+import mytube from "./mytube.png";
+import passwordgenerator from "./passwordgenerator.png";
+import simonsays from "./simonsays.png";
 
 export {
   logo,
@@ -60,7 +63,10 @@ export {
   tesla,
   codsoft,
   heromotocorp,
-  carrent,
-  jobit,
-  tripguide,
+  leavemanagement,
+  mytube,
+  eatezy,
+  streamai,
+  passwordgenerator,
+  simonsays
 };
