@@ -4,7 +4,9 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-8 bg-opacity-80">
       <div className="container mx-auto px-4">
-        <h2 className="text-center text-xl font-bold mb-4">Get In Touch</h2>
+        <h2 className="text-center text-xl mb-4">
+          Feel free to connect on social media.
+        </h2>
         {/* <p className="text-center text-lg mb-6 max-w-2xl mx-auto">
           I am actively seeking new career opportunities, and my inbox is always
           open. Whether you have a job opportunity or if you just want to
