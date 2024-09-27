@@ -36,7 +36,10 @@ import {
     mytube,
     threejs,
     passwordgenerator,
-    simonsays
+    simonsays,
+    vikasmalhotra,
+    anilkumarsingh,
+    amitjangid,
 } from "../assets";
 
 export const navLinks = [
@@ -239,27 +242,27 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+            "Devesh quickly mastered front-end technologies and applied them expertly. His commitment and willingness to go the extra mile were impressive.",
+        name: "Anil Singh",
+        designation: "AGM - Digital and IT",
+        company: "Hero Motocorp",
+        image: anilkumarsingh,
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "Devesh's rapid learning, technical prowess, and innovative approach make him invaluable. I highly recommend him for cutting-edge tech projects.",
+        name: "Vikas Malhotra",
+        designation: "Head - Business Solutions",
+        company: "Hero MotoCorp",
+        image: vikasmalhotra,
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "Devesh consistently delivered top-notch work with enthusiasm and attention to detail. His clean, efficient code stood out in all projects.",
+        name: "Amit Jangid",
+        designation: "Senior Software Engineer",
+        company: "Q3 technologies",
+        image: amitjangid,
     },
 ];
 

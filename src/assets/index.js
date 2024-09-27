@@ -35,6 +35,10 @@ import vite from "./tech/vite.png";
 import parcel from "./tech/parcel.png";
 import vscode from "./tech/vscode.png";
 
+import vikasmalhotra from "./vikasmalhotra.jpeg";
+import anilkumarsingh from "./anilkumarsingh.jpeg";
+import amitjangid from "./amitjangid.jpeg";
+
 
 
 import meta from "./company/meta.png";
@@ -97,5 +101,8 @@ export {
   eatezy,
   streamai,
   passwordgenerator,
-  simonsays
+  simonsays,
+  anilkumarsingh,
+  vikasmalhotra,
+  amitjangid,
 };
