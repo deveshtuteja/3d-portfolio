@@ -42,20 +42,19 @@ import {
     amitjangid,
 } from "../assets";
 
+// src/constants.js
 export const navLinks = [
+    { id: "about", title: "About" },
+    { id: "work", title: "Work" },
+    { id: "contact", title: "Contact" },
     {
-        id: "about",
-        title: "About",
-    },
-    {
-        id: "work",
-        title: "Work",
-    },
-    {
-        id: "contact",
-        title: "Contact",
+        id: "resume",
+        title: "Resume",
+        external: true,
+        url: "https://docs.google.com/document/d/1Mfm0uo3g5CxnQ1zhO0VmBp9Qjm67y2JODrsdwaWPrKw/preview",
     },
 ];
+
 
 const services = [
     {

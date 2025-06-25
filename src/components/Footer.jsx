@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, Instagram } from "lucide-react";
+import { Mail, Linkedin, Github, Instagram, Twitter, Code } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -7,11 +7,11 @@ const Footer = () => {
         <h2 className="text-center text-xl mb-4">
           Feel free to connect on social media.
         </h2>
-        {/* <p className="text-center text-lg mb-6 max-w-2xl mx-auto">
+        <p className="text-center text-lg mb-6 max-w-2xl mx-auto">
           I am actively seeking new career opportunities, and my inbox is always
           open. Whether you have a job opportunity or if you just want to
           connect, feel free to reach out.
-        </p> */}
+        </p>
         <div className="flex justify-center space-x-6">
           <a
             href="mailto:deveshtuteja17@gmail.com"
@@ -39,6 +39,15 @@ const Footer = () => {
             <Github size={24} />
           </a>
           <a
+            href="https://leetcode.com/u/deveshtuteja/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-purple-400 transition-colors duration-300"
+            aria-label="LeetCode"
+          >
+            <Code size={24} />
+          </a>
+          {/* <a
             href="https://www.instagram.com/devesh_tuteja"
             target="_blank"
             rel="noopener noreferrer"
@@ -46,6 +55,15 @@ const Footer = () => {
             aria-label="Instagram"
           >
             <Instagram size={24} />
+          </a> */}
+          <a
+            href="https://x.com/deveshtuteja_"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-purple-400 transition-colors duration-300"
+            aria-label="Twitter"
+          >
+            <Twitter size={24} />
           </a>
         </div>
         <p className="text-center mt-6 text-sm text-gray-500">
