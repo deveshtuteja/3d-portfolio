@@ -40,6 +40,7 @@ import {
     vikasmalhotra,
     anilkumarsingh,
     amitjangid,
+    thinksys
 } from "../assets";
 
 // src/constants.js
@@ -207,6 +208,19 @@ const experiences = [
             "Reduced support requests by 35% by creating an easy-to-use interface.",
             "Implemented a dark mode feature.",
             "Enhanced accuracy and usability of attendance features, reducing discrepancies by 30%."
+        ],
+    },
+    {
+        title: "Software Intern",
+        company_name: "ThinkSys Software Private Limited",
+        icon: thinksys,
+        iconBg: "#383E56",
+        date: "July 2025 - August 2025",
+        points: [
+            "Contributed by raising 20+ PRs, fixing bugs and improving features across existing projects.",
+            "Developed a personal portfolio website using React.js, Three.js, React Three Fiber, and Drei with 3D visuals.",
+            "Integrated EmailJS for contact form functionality and deployed the site on Vercel for global accessibility.",
+            "Worked with modern web technologies including React.js, Nest.js, Three.js, PostgreSQL, React Three Fiber, Drei, EmailJS, and Vercel.",
         ],
     },
 

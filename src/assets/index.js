@@ -47,6 +47,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import codsoft from "./company/codsoft.png";
 import heromotocorp from "./company/heromotocorp.png"
+import thinksys from "./company/thinksys.jpg"
 
 import leavemanagement from "./leavemanagement.png";
 import eatezy from "./eatezy.png";
@@ -105,4 +106,5 @@ export {
   anilkumarsingh,
   vikasmalhotra,
   amitjangid,
+  thinksys,
 };
